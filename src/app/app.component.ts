@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pertemuan4';
+  loadedFeature='recipe';
+
+  onNavigate(feature:string){
+
+    this.loadedFeature=feature;
+  }
+ 
+
+  
 }
